@@ -9,7 +9,7 @@ import { DataTablesRoutes } from './datatables.routing';
 import { DataTableComponent } from './data-table/data-table.component';
 import { MaterialTableComponent } from './materialtable/materialtable.component';
 import { TableEditingComponent } from './table-editing/table-editing.component';
-import { TableFilterComponent } from './table-filter/table-filter.component';
+import { AppComponent } from './table-filter/table-filter.component';
 
 @NgModule({
   imports: [
@@ -22,7 +22,7 @@ import { TableFilterComponent } from './table-filter/table-filter.component';
   declarations: [
     DataTableComponent,
     TableEditingComponent,
-    TableFilterComponent,
+    AppComponent,
     MaterialTableComponent
   ]
 })

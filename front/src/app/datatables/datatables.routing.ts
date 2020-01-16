@@ -2,7 +2,7 @@ import { Routes } from '@angular/router';
 
 import { DataTableComponent } from './data-table/data-table.component';
 import { TableEditingComponent } from './table-editing/table-editing.component';
-import { TableFilterComponent } from './table-filter/table-filter.component';
+import { AppComponent } from './table-filter/table-filter.component';
 import { MaterialTableComponent } from './materialtable/materialtable.component';
 export const DataTablesRoutes: Routes = [
   {
@@ -23,7 +23,7 @@ export const DataTablesRoutes: Routes = [
         path: 'editing',
         component: TableEditingComponent,
 		data: {
-          title: 'Editing Table',
+          title: 'Editincg Table',
           urls: [
             { title: 'Dashboard', url: '/dashboard' },
             { title: 'Editing Table' }
@@ -32,7 +32,7 @@ export const DataTablesRoutes: Routes = [
       },
       {
         path: 'filter',
-        component: TableFilterComponent,
+        component: AppComponent,
 		data: {
           title: 'Filter Table',
           urls: [
